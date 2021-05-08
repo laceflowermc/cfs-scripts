@@ -1,3 +1,12 @@
+// Compressed Stonecrushing
+<recipetype:create:crushing>.addRecipe("andesite_compressed", [<item:exnihilosequentia:crushed_andesite> * 9], <item:excompressum:compressed_andesite>);
+<recipetype:create:crushing>.addRecipe("granite_compressed", [<item:exnihilosequentia:crushed_granite> * 9], <item:excompressum:compressed_granite>);
+<recipetype:create:crushing>.addRecipe("diorite_compressed", [<item:exnihilosequentia:crushed_diorite> * 9], <item:excompressum:compressed_diorite>);
+<recipetype:create:crushing>.addRecipe("gravel_compressed", [<item:minecraft:gravel> * 9], <item:excompressum:compressed_cobblestone>);
+<recipetype:create:crushing>.addRecipe("sand_compressed", [<item:minecraft:sand> * 9], <item:excompressum:compressed_gravel>);
+<recipetype:create:crushing>.addRecipe("dust_compressed", [<item:exnihilosequentia:dust> * 9], <item:excompressum:compressed_sand>);
+<recipetype:create:crushing>.addRecipe("netherrack_compressed", [<item:exnihilosequentia:crushed_netherrack> * 9], <item:excompressum:compressed_netherrack>);
+<recipetype:create:crushing>.addRecipe("endstone_compressed", [<item:exnihilosequentia:crushed_end_stone> * 9], <item:excompressum:compressed_end_stone>);
 // Stonecrushing Recipes
 <recipetype:create:crushing>.removeRecipeByInput(<item:minecraft:cobblestone>);
 <recipetype:create:crushing>.removeRecipeByInput(<item:minecraft:sand>);

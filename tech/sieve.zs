@@ -11,11 +11,6 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("pebble_basalt_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_basalt>).addRoll("iron", 0.2).addRoll("diamond", 0.2).addRoll("emerald", 0.33).addRoll("netherite", 0.66);
 <recipetype:exnihilosequentia:sieve>.create("wheat_seeds_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:wheat_seeds>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("flint_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:flint>).addRoll("string", 0.2);
-<recipetype:exnihilosequentia:sieve>.create("oak_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:seed_oak>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
-<recipetype:exnihilosequentia:sieve>.create("spruce_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:seed_spruce>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
-<recipetype:exnihilosequentia:sieve>.create("birch_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:seed_birch>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
-<recipetype:exnihilosequentia:sieve>.create("jungle_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:seed_jungle>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
-<recipetype:exnihilosequentia:sieve>.create("dark_oak_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:seed_darkoak>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 // Organic compost recipes
 <recipetype:exnihilosequentia:sieve>.create("berry_seeds").setInput(<item:farmersdelight:organic_compost>).addDrop(<item:berry_good:sweet_berry_pips>).addRoll("string", 0.1).addRoll("flint", 0.2).addRoll("iron", 0.2);
 <recipetype:exnihilosequentia:sieve>.create("tomato_seeds").setInput(<item:farmersdelight:organic_compost>).addDrop(<item:farmersdelight:tomato_seeds>).addRoll("string", 0.1).addRoll("flint", 0.2).addRoll("iron", 0.2);
