@@ -1,0 +1,48 @@
+import mods.jei.JEI;
+// regex hiding
+mods.jei.JEI.hideRegex(".*_rune.*");
+mods.jei.JEI.hideRegex(".*vertical_.*");
+mods.jei.JEI.hideRegex(".*_shard.*");
+mods.jei.JEI.hideRegex(".*_shingles.*");
+mods.jei.JEI.hideRegex(".*_crystal.*");
+mods.jei.JEI.hideRegex(".*_crystal_cluster.*");
+mods.jei.JEI.hideRegex(".*_quilted_wool.*");
+mods.jei.JEI.hideRegex(".*_item_frame.*");
+mods.jei.JEI.hideRegex(".*_stool*");
+mods.jei.JEI.hideRegex(".*_candle*");
+mods.jei.JEI.hideRegex(".*_speleothem.*");
+mods.jei.JEI.hideRegex(".*_glowshroom.*");
+mods.jei.JEI.hideRegex(".*_post.*");
+mods.jei.JEI.hideRegex(".*_trapped_chest.*");
+mods.jei.JEI.hideRegex(".*_pavement.*");
+mods.jei.JEI.hideRegex(".*_seat.*");
+mods.jei.JEI.hideRegex(".*tallow.*");
+mods.jei.JEI.hideRegex(".*glowshroom.*");
+mods.jei.JEI.hideRegex(".*_framed_glass.*");
+mods.jei.JEI.hideRegex(".*_bookshelf.*");
+// manual hiding
+mods.jei.JEI.hideItem(<item:quark:forgotten_hat>);
+mods.jei.JEI.hideItem(<item:quark:bottled_cloud>);
+mods.jei.JEI.hideItem(<item:quark:soul_bead>);
+mods.jei.JEI.hideItem(<item:quark:iron_rod>);
+mods.jei.JEI.hideItem(<item:quark:dragon_scale>);
+mods.jei.JEI.hideItem(<item:quark:root>);
+mods.jei.JEI.hideItem(<item:quark:root_item>);
+mods.jei.JEI.hideItem(<item:quark:chorus_weeds>);
+mods.jei.JEI.hideItem(<item:quark:chorus_twist>);
+mods.jei.JEI.hideItem(<item:quark:ancient_tome>);
+// manual hiding with recipe removal
+craftingTable.removeRecipe(<item:quark:iron_rod>);
+mods.jei.JEI.hideItem(<item:quark:chute>);
+craftingTable.removeRecipe(<item:quark:chute>);
+mods.jei.JEI.hideItem(<item:quark:magnet>);
+craftingTable.removeRecipe(<item:quark:magnet>);
+mods.jei.JEI.hideItem(<item:quark:crate>);
+craftingTable.removeRecipe(<item:quark:crate>);
+mods.jei.JEI.hideItem(<item:quark:soul_compass>);
+craftingTable.removeRecipe(<item:quark:soul_compass>);
+mods.jei.JEI.hideItem(<item:quark:pipe>);
+craftingTable.removeRecipe(<item:quark:pipe>);
+mods.jei.JEI.hideItem(<item:quark:dirty_glass>);
+craftingTable.removeRecipe(<item:quark:dirty_glass>);
+craftingTable.removeRecipe(<item:quark:backpack>);

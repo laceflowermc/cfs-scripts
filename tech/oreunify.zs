@@ -1,3 +1,4 @@
+/*
 import mods.grinder.Grinder;
 import mods.jei.JEI;
 // Remove vanilla grinder recipes
@@ -24,3 +25,4 @@ mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_stone").in
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_andesite").input(<item:minecraft:andesite>).output(<item:exnihilosequentia:pebble_andesite> * 4));
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_diorite").input(<item:minecraft:diorite>).output(<item:exnihilosequentia:pebble_diorite> * 4));
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_granite").input(<item:minecraft:granite>).output(<item:exnihilosequentia:pebble_granite> * 4));
+*/
