@@ -1,3 +1,8 @@
+import mods.jei.JEI;
+// jei removals
+mods.jei.JEI.hideItem(<item:computercraft:disk>);
+mods.jei.JEI.hideItem(<item:computercraft:printed_page>);
+mods.jei.JEI.hideItem(<item:advancedperipherals:me_bridge>);
 // computers
 // computer_normal
 craftingTable.removeRecipe(<item:computercraft:computer_normal>);
