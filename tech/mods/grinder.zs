@@ -34,7 +34,7 @@ mods.jei.JEI.hideItem(<item:grinder:grindstone_iesnium>);
 smithing.addRecipe("rainbow_grindstone", <item:grinder:grindstone_rainbow>, <item:grinder:grindstone_diamond>, <item:create:refined_radiance>);
 smithing.addRecipe("starmetal_grindstone", <item:grinder:grindstone_starmetal>, <item:grinder:grindstone_diamond>, <item:create:shadow_steel>);
 // recipe for grinder block
-craftingTable.removeRecipeByName("grinder:grinder");
+craftingTable.removeByName("grinder:grinder");
 craftingTable.addShaped("grinder_block", <item:grinder:grinder>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:create:andesite_alloy>, <tag:items:minecraft:slabs>, <item:create:andesite_alloy>],

@@ -1,8 +1,7 @@
 import mods.exnihilosequentia.ZenSieveRecipe;
 <recipetype:exnihilosequentia:sieve>.removeAll();
 craftingTable.removeByModid("flowerseeds");
-# <recipetype:exnihilosequentia:sieve>.create("").setInput(<item:>).addDrop(<item:>).addRoll("string", 0.01).addRoll("flint", 1.0).addRoll("iron", 1.0).addRoll("diamond", 1.0).addRoll("emerald", 1.0).addRoll("netherite", 1.0);
-// Dirt sieve recipes
+ // Dirt sieve recipes
 <recipetype:exnihilosequentia:sieve>.create("pebble_stone_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_stone>).addRoll("string", 0.66).addRoll("flint", 0.66).addRoll("iron", 0.33).addRoll("diamond", 0.33).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
 <recipetype:exnihilosequentia:sieve>.create("pebble_diorite_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_diorite>).addRoll("flint", 0.33).addRoll("iron", 0.5).addRoll("diamond", 0.75);
 <recipetype:exnihilosequentia:sieve>.create("pebble_granite_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_granite>).addRoll("flint", 0.33).addRoll("iron", 0.5).addRoll("diamond", 0.75);
@@ -11,6 +10,12 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("pebble_basalt_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_basalt>).addRoll("iron", 0.2).addRoll("diamond", 0.2).addRoll("emerald", 0.33).addRoll("netherite", 0.66);
 <recipetype:exnihilosequentia:sieve>.create("wheat_seeds_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:wheat_seeds>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("flint_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:flint>).addRoll("string", 0.2);
+<recipetype:exnihilosequentia:sieve>.create("oak_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:oak_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
+<recipetype:exnihilosequentia:sieve>.create("spruce_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:spruce_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
+<recipetype:exnihilosequentia:sieve>.create("birch_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:birch_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
+<recipetype:exnihilosequentia:sieve>.create("jungle_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:jungle_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
+<recipetype:exnihilosequentia:sieve>.create("dark_oak_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:dark_oak_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
+<recipetype:exnihilosequentia:sieve>.create("acacia_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:acacia_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 // Organic compost recipes
 <recipetype:exnihilosequentia:sieve>.create("berry_seeds").setInput(<item:farmersdelight:organic_compost>).addDrop(<item:berry_good:sweet_berry_pips>).addRoll("string", 0.1).addRoll("flint", 0.2).addRoll("iron", 0.2);
 <recipetype:exnihilosequentia:sieve>.create("tomato_seeds").setInput(<item:farmersdelight:organic_compost>).addDrop(<item:farmersdelight:tomato_seeds>).addRoll("string", 0.1).addRoll("flint", 0.2).addRoll("iron", 0.2);
@@ -28,12 +33,12 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("cactus_seeds").setInput(<item:farmersdelight:organic_compost>).addDrop(<item:exnihilosequentia:seed_cactus>).addRoll("string", 0.1).addRoll("flint", 0.2).addRoll("iron", 0.2);
 // Rich soil recipes
 <recipetype:exnihilosequentia:sieve>.create("flowering_oak_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:fruitful:flowering_oak_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("red_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:red_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("orange_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:orange_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("yellow_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:yellow_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("pink_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:pink_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("lavander_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:lavender_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
-<recipetype:exnihilosequentia:sieve>.create("blue_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:quark:blue_blossom_sapling>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("red_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:fiery_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("orange_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:warm_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("yellow_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:sunny_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("pink_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:sweet_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("lavander_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:serene_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
+<recipetype:exnihilosequentia:sieve>.create("blue_blossom_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:dtquark:frosty_blossom_seed>).addRoll("emerald", 0.05).addRoll("netherite", 0.1);
 <recipetype:exnihilosequentia:sieve>.create("cornflower_seed_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:flowerseeds:cornflower_seed>).addRoll("flint", 0.1).addRoll("iron", 0.1).addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
 <recipetype:exnihilosequentia:sieve>.create("oxeye_seed_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:flowerseeds:oxeye_seed>).addRoll("flint", 0.1).addRoll("iron", 0.1).addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
 <recipetype:exnihilosequentia:sieve>.create("dandelion_seed_richsoil").setInput(<item:farmersdelight:rich_soil>).addDrop(<item:flowerseeds:dandelion_seed>).addRoll("flint", 0.1).addRoll("iron", 0.1).addRoll("diamond", 0.1).addRoll("emerald", 0.1).addRoll("netherite", 0.1);
@@ -63,7 +68,7 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("lapis_lazuli_gravel").setInput(<item:minecraft:gravel>).addDrop(<item:minecraft:lapis_lazuli>).addRoll("iron", 0.1).addRoll("diamond", 0.25).addRoll("emerald", 0.50).addRoll("netherite", 0.1);
 // Sand recipes
 <recipetype:exnihilosequentia:sieve>.create("clay_ball_sand").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:clay_ball>).addRoll("string", 0.05).addRoll("flint", 0.25).addRoll("iron", 0.25);
-<recipetype:exnihilosequentia:sieve>.create("sea_pickle_seed").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:clay_ball>).addRoll("string", 0.05).addRoll("flint", 0.25).addRoll("iron", 0.25);
+<recipetype:exnihilosequentia:sieve>.create("sea_pickle_seed_sand_waterlogged").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:clay_ball>).addRoll("string", 0.05).addRoll("flint", 0.25).addRoll("iron", 0.25).setWaterlogged();
 <recipetype:exnihilosequentia:sieve>.create("silicon_sand").setInput(<item:minecraft:sand>).addDrop(<item:refinedstorage:silicon>).addRoll("string", 0.05).addRoll("flint", 0.10).addRoll("iron", 0.10).addRoll("diamond", 0.10);
 <recipetype:exnihilosequentia:sieve>.create("clay_ball_sand_waterlogged").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:clay_ball>).addRoll("string", 0.20).addRoll("flint", 0.50).addRoll("iron", 0.50).setWaterlogged();
 <recipetype:exnihilosequentia:sieve>.create("iron_ore_piece_sand").setInput(<item:minecraft:sand>).addDrop(<item:exnihilosequentia:piece_iron>).addRoll("iron", 0.15).addRoll("diamond", 0.25).addRoll("emerald", 0.15).addRoll("netherite", 0.25);
@@ -72,6 +77,9 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("neptunium_nugget_sand").setInput(<item:minecraft:sand>).addDrop(<item:aquaculture:neptunium_nugget>).addRoll("iron", 0.02).addRoll("diamond", 0.02).addRoll("emerald", 0.02).addRoll("netherite", 0.02).setWaterlogged();
 <recipetype:exnihilosequentia:sieve>.create("prismarine_shard_sand").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:prismarine_shard>).addRoll("iron", 0.05).addRoll("diamond", 0.10).addRoll("emerald", 0.10).addRoll("netherite", 0.10);
 <recipetype:exnihilosequentia:sieve>.create("primsarine_crystals_sand").setInput(<item:minecraft:sand>).addDrop(<item:minecraft:prismarine_crystals>).addRoll("iron", 0.025).addRoll("diamond", 0.025).addRoll("emerald", 0.025).addRoll("netherite", 0.025);
+<recipetype:exnihilosequentia:sieve>.create("saguaro_cactus_seed_sand").setInput(<item:minecraft:sand>).addDrop(<item:dynamictreesplus:saguaro_cactus_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.05);
+<recipetype:exnihilosequentia:sieve>.create("pipe_cactus_seed_sand").setInput(<item:minecraft:sand>).addDrop(<item:dynamictreesplus:pipe_cactus_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.05);
+<recipetype:exnihilosequentia:sieve>.create("pillar_cactus_seed_sand").setInput(<item:minecraft:sand>).addDrop(<item:dynamictreesplus:pillar_cactus_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.05);
 // Dust recipes
 <recipetype:exnihilosequentia:sieve>.create("redstone_dust").setInput(<item:exnihilosequentia:dust>).addDrop(<item:minecraft:redstone>).addRoll("flint", 0.20).addRoll("iron", 0.15).addRoll("diamond", 0.25).addRoll("emerald", 0.25).addRoll("netherite", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("blaze_powder").setInput(<item:exnihilosequentia:dust>).addDrop(<item:minecraft:blaze_powder>).addRoll("iron", 0.15).addRoll("diamond", 0.10).addRoll("emerald", 0.10).addRoll("netherite", 0.20);
@@ -80,6 +88,8 @@ craftingTable.removeByModid("flowerseeds");
 // Crushed Netherrack recipes
 <recipetype:exnihilosequentia:sieve>.create("gold_nugget").setInput(<item:exnihilosequentia:crushed_netherrack>).addDrop(<item:minecraft:gold_nugget>).addRoll("iron", 0.25).addRoll("diamond", 0.33).addRoll("emerald", 0.50).addRoll("netherite", 0.70);
 <recipetype:exnihilosequentia:sieve>.create("quartz_netherrack").setInput(<item:exnihilosequentia:crushed_netherrack>).addDrop(<item:minecraft:quartz>).addRoll("iron", 0.10).addRoll("diamond", 0.20).addRoll("emerald", 0.30);
+<recipetype:exnihilosequentia:sieve>.create("crimson_seed").setInput(<item:exnihilosequentia:crushed_netherrack>).addDrop(<item:dynamictrees:crimson_seed>).addRoll("flint", 0.05).addRoll("iron", 0.10).addRoll("diamond", 0.15).addRoll("emerald", 0.20);
+<recipetype:exnihilosequentia:sieve>.create("warped_seed").setInput(<item:exnihilosequentia:crushed_netherrack>).addDrop(<item:dynamictrees:warped_seed>).addRoll("flint", 0.05).addRoll("iron", 0.10).addRoll("diamond", 0.15).addRoll("emerald", 0.20);
 // Soul Sand recipes
 <recipetype:exnihilosequentia:sieve>.create("quartz_soul_sand").setInput(<item:minecraft:soul_sand>).addDrop(<item:minecraft:quartz>).addRoll("flint", 0.10).addRoll("iron", 0.10).addRoll("diamond", 0.15).addRoll("emerald", 0.20).addRoll("netherite", 0.20);
 <recipetype:exnihilosequentia:sieve>.create("nether_wart").setInput(<item:minecraft:soul_sand>).addDrop(<item:minecraft:nether_wart>).addRoll("flint", 0.05).addRoll("iron", 0.05).addRoll("diamond", 0.10).addRoll("emerald", 0.10).addRoll("netherite", 0.10);
