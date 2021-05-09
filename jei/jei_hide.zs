@@ -47,7 +47,11 @@ mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_darkoak>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_birch>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_jungle>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_spruce>);
-mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_acacia>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_cactus>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_berry>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:grass_seeds>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_fern>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_large_fern>);
 // hide adpother pollution blocks
 mods.jei.JEI.hideItem(<item:adpother:sulfur>);
 mods.jei.JEI.hideItem(<item:adpother:carbon>);

@@ -33,3 +33,5 @@ craftingTable.addShaped("unfired_ceramic_bucket", <item:ceramicbucket:unfired_cl
 ]);
 // Slime Bucket
 <recipetype:create:compacting>.addRecipe("slime_in_bucket", "none", <item:quark:slime_in_a_bucket>, [<item:minecraft:bucket>, <item:minecraft:slime_block>, <item:quark:soul_bead>], [], 200);
+// Bell recipe
+<recipetype:create:compacting>.addRecipe("bell_compacting", "heated", <item:minecraft:bell>, [<item:minecraft:gold_block>], [], 120000);
