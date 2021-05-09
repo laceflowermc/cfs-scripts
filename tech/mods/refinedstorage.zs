@@ -1,7 +1,7 @@
 craftingTable.removeRecipe(<item:refinedstorage:destruction_core>);
 craftingTable.removeRecipe(<item:refinedstorage:construction_core>);
-<recipetype:create:compacting>.addRecipe("destruction_core", "superheated", <item:refinedstorage:destruction_core>, [<item:refinedstorage:basic_processor>, <item:create:shadow_steel>], [], 120000);
-<recipetype:create:compacting>.addRecipe("construction_core", "superheated", <item:refinedstorage:construction_core>, [<item:refinedstorage:basic_processor>, <item:create:refined_radiance>], [], 120000);
+<recipetype:create:compacting>.addRecipe("destruction_core", "none", <item:refinedstorage:destruction_core>, [<item:refinedstorage:basic_processor>, <item:create:shadow_steel>], [], 120000);
+<recipetype:create:compacting>.addRecipe("construction_core", "none", <item:refinedstorage:construction_core>, [<item:refinedstorage:basic_processor>, <item:create:refined_radiance>], [], 120000);
 //Processor recipes
 craftingTable.removeByRegex(".*_processor.*");
 <recipetype:create:compacting>.addRecipe("raw_basic", "heated", <item:refinedstorage:raw_basic_processor>, [<item:refinedstorage:silicon>, <item:refinedstorage:processor_binding>, <item:createaddition:iron_wire>, <item:minecraft:redstone>], [], 120000);

@@ -22,6 +22,11 @@ craftingTable.removeRecipe(<item:ashenwheat:ash_cookie>);
 craftingTable.removeRecipe(<item:ashenwheat:scintilla_cookie>);
 <recipetype:create:compacting>.addRecipe("ash_cookie", "superheated", <item:ashenwheat:ash_cookie> * 2, [<item:create:cinder_flour> * 2, <item:minecraft:cocoa_beans>], [<fluid:create:honey> * 100], 100);
 <recipetype:create:compacting>.addRecipe("scintilla_cookie", "superheated", <item:ashenwheat:scintilla_cookie> * 3, [<item:create:cinder_flour>, <item:ashenwheat:scintilla_wheat_sheaf>, <item:minecraft:cocoa_beans>], [<fluid:create:honey> * 100], 100);
+// Ashenwheat bread compacting
+craftingTable.removeRecipe(<item:ashenwheat:ash_bread>);
+craftingTable.removeRecipe(<item:ashenwheat:scintilla_bread>);
+<recipetype:create:compacting>.addRecipe("ashenwheat_bread", "superheated", <item:ashenwheat:ash_bread>, [<item:ashenwheat:ash_wheat_sheaf> * 3], [], 200);
+<recipetype:create:compacting>.addRecipe("scintilla_bread", "superheated", <item:ashenwheat:scintilla_bread>, [<item:ashenwheat:scintilla_wheat_sheaf> * 3], [], 200);
 // Cake recipe
 craftingTable.removeRecipe(<item:minecraft:cake>);
 <recipetype:create:filling>.addRecipe("cake_filling", <item:minecraft:cake>, <item:farmersdelight:pie_crust>, <fluid:create:milk> * 500);
@@ -35,4 +40,4 @@ craftingTable.removeRecipe(<item:aquaculture:sushi>);
 <recipetype:create:compacting>.addRecipe("sushi", "none", <item:aquaculture:sushi>, [<tag:items:forge:raw_fishes>, <item:minecraft:dried_kelp>], [], 100);
 // barbecue stick
 craftingTable.removeRecipe(<item:farmersdelight:barbecue_stick>);
-<recipetype:create:compacting>.addRecipe("barbecue_stick", "heated", <item:farmersdelight:barbecue_stick> * 2, [<tag:items:forge:raw_chicken>, <tag:items:forge:raw_pork>, <tag:items:forge:raw_beef>, <item:minecraft:beetroot>, <item:minecraft:sweet_berries>, <item:farmersdelight:tomato>, <item:createaddition:iron_rod>], [], 100);
+<recipetype:farmersdelight:cooking>.addRecipe("pumpkin_pie", <item:farmersdelight:barbecue_stick>, [<tag:items:forge:raw_chicken>, <tag:items:forge:raw_pork>, <tag:items:forge:raw_beef>, <item:minecraft:beetroot>, <item:minecraft:sweet_berries>,<item:farmersdelight:tomato>], <item:minecraft:stick>, 50, 200);

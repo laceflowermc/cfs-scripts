@@ -2,17 +2,19 @@ import mods.jei.JEI;
 mods.jei.JEI.hideItem(<item:excompressum:hammer_mana>);
 mods.jei.JEI.hideItem(<item:excompressum:mana_sieve>);
 mods.jei.JEI.hideItem(<item:simpleplanes:wrench>);
-# hide debug items
+// hide debug items
 mods.jei.JEI.hideItem(<item:minecraft:structure_block>);
 mods.jei.JEI.hideItem(<item:minecraft:debug_stick>);
 mods.jei.JEI.hideItem(<item:minecraft:enchanted_book>);
 mods.jei.JEI.hideItem(<item:minecraft:splash_potion>);
 mods.jei.JEI.hideItem(<item:minecraft:lingering_potion>);
 mods.jei.JEI.hideItem(<item:minecraft:tipped_arrow>);
+mods.jei.JEI.hideItem(<item:minecraft:farmland>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:end_cake>);
 mods.jei.JEI.hideItem(<item:excompressum:chicken_stick>);
 mods.jei.JEI.hideItem(<item:farmersdelight:rich_soil_farmland>);
-# hide flowers
+mods.jei.JEI.hideItem(<item:dynamictrees:staff>);
+// hide flowers
 mods.jei.JEI.hideItem(<item:minecraft:grass>);
 mods.jei.JEI.hideItem(<item:minecraft:tall_grass>);
 mods.jei.JEI.hideItem(<item:minecraft:fern>);
@@ -39,3 +41,10 @@ mods.jei.JEI.hideItem(<item:minecraft:rose_bush>);
 mods.jei.JEI.hideItem(<item:minecraft:peony>);
 mods.jei.JEI.hideItem(<item:minecraft:lily_pad>);
 mods.jei.JEI.hideItem(<item:flowerseeds:orchid_seed>);
+// hide ENS seeds
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_oak>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_darkoak>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_birch>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_jungle>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_spruce>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_acacia>);
