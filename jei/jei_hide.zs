@@ -48,3 +48,8 @@ mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_birch>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_jungle>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_spruce>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:seed_acacia>);
+// hide adpother pollution blocks
+mods.jei.JEI.hideItem(<item:adpother:sulfur>);
+mods.jei.JEI.hideItem(<item:adpother:carbon>);
+mods.jei.JEI.hideItem(<item:adpother:dust>);
+mods.jei.JEI.hideFluid(<fluid:adpother:polluted_water_still>);

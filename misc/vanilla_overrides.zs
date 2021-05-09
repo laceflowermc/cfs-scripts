@@ -33,6 +33,3 @@ craftingTable.addShaped("unfired_ceramic_bucket", <item:ceramicbucket:unfired_cl
 ]);
 // Slime Bucket
 <recipetype:create:compacting>.addRecipe("slime_in_bucket", "none", <item:quark:slime_in_a_bucket>, [<item:minecraft:bucket>, <item:minecraft:slime_block>, <item:quark:soul_bead>], [], 200);
-// Star Infused Ingot
-craftingTable.removeRecipe(<item:cagedmobs:star_infused_netherite_ingot>);
-<recipetype:create:compacting>.addRecipe("star_infused_netherite", "superheated", <item:cagedmobs:star_infused_netherite_ingot>, [<item:minecraft:netherite_ingot>, <item:minecraft:nether_star>], [], 200);
