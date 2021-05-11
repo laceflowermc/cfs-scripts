@@ -33,3 +33,8 @@
 <recipetype:create:milling>.addRecipe("gravel_milling", [<item:minecraft:gravel>, <item:exnihilosequentia:pebble_stone> % 60, <item:minecraft:flint> % 10], <item:minecraft:cobblestone>);
 <recipetype:create:milling>.addRecipe("sand_milling", [<item:minecraft:sand>], <item:minecraft:gravel>);
 <recipetype:create:milling>.addRecipe("dust_milling", [<item:exnihilosequentia:dust>], <item:minecraft:sand>);
+// Washing recuoes for ore pieces
+<recipetype:create:splashing>.removeByName("create:splashing/gravel");
+<recipetype:create:splashing>.removeByName("create:splashing/red_sand");
+<recipetype:create:splashing>.addRecipe("iron_gravel_splashing", [<item:exnihilosequentia:piece_iron>, <item:exnihilosequentia:piece_iron> % 33, <item:exnihilosequentia:piece_iron> % 33], <item:minecraft:gravel>);
+<recipetype:create:splashing>.addRecipe("gold_sand_splashing", [<item:exnihilosequentia:piece_gold>, <item:exnihilosequentia:piece_gold> % 33, <item:exnihilosequentia:piece_gold> % 33], <item:minecraft:sand>);

@@ -38,6 +38,10 @@ craftingTable.removeByName("calemiutils:tools/brush");
 <recipetype:create:compacting>.addRecipe("minting_no_heat", "none", <item:calemiutils:coin_penny> * 1, [<item:minecraft:gold_nugget>, <item:create:brass_nugget>], [], 1000);
 <recipetype:create:compacting>.addRecipe("minting_heated", "heated", <item:calemiutils:coin_penny> * 3, [<item:minecraft:gold_nugget>, <item:create:brass_nugget>], [], 1000);
 <recipetype:create:compacting>.addRecipe("minting_superheated", "superheated", <item:calemiutils:coin_penny> * 9, [<item:minecraft:gold_nugget>, <item:create:brass_nugget>], [], 1000);
-// remove tree fertilizer until dynamic trees compat is added
-craftingTable.removeRecipe(<item:create:tree_fertilizer>);
-mods.jei.JEI.hideItem(<item:create:tree_fertilizer>);
+// Easier storage drawers void upgrade recipe
+craftingTable.removeByName("storagedrawers:void_upgrade");
+craftingTable.addShaped("void_upgrade_easy", <item:storagedrawers:void_upgrade>, [
+    [<item:minecraft:flint>, <item:minecraft:flint>, <item:minecraft:flint>,],
+    [<item:minecraft:flint>, <item:storagedrawers:upgrade_template>, <item:minecraft:flint>,],
+    [<item:minecraft:flint>, <item:minecraft:flint>, <item:minecraft:flint>]
+]);

@@ -60,3 +60,6 @@ craftingTable.removeRecipe(<item:computercraft:monitor_advanced>);
 	[<item:minecraft:air>, <item:advancedperipherals:peripheral_casing>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:refinedstorage:improved_processor>, <item:minecraft:air>],
 ]);
+// AR Goggles
+craftingTable.removeRecipe(<item:advancedperipherals:ar_goggles>);
+<recipetype:create:compacting>.addRecipe("ar_goggles", "superheated", <item:advancedperipherals:ar_goggles>, [<item:computercraft:pocket_computer_advanced>, <item:create:goggles>], [], 120000);
