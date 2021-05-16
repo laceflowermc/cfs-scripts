@@ -261,3 +261,149 @@ SummoningDirector.addSummonInfo(
             .setSpread(1,1,1)
             # todo: ore-specific spawns with NBT data
 ));
+// -- hostile mobs --
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:rotten_flesh>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:zombie>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:string>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:spider>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:bone>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:skeleton>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:slime_ball>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:slime>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:blaze_powder>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:blaze>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:quark:wraith>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:feather>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:phantom>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:magma_cream>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:magma_cube>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:ghast_tear>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:phantom>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:blaze_powder>, <item:minecraft:bone>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:quark:foxhound>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:scute> * 2, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:shulker>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:prismarine_crystals>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:guardian>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
+# todo: zombie villager
+# todo: skeleton villager
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:cagedmobs:dragon_scale> * 3, <item:minecraft:enchanted_golden_apple>, <item:quark:soul_bead>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:ender_dragon>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(1,1,1)
+));
