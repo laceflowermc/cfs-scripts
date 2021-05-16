@@ -8,8 +8,11 @@ smoker.addRecipe("bread_smoker", <item:minecraft:bread>, <item:create:dough>, 1.
 craftingTable.removeRecipe(<item:farmersdelight:apple_pie>);
 craftingTable.removeRecipe(<item:farmersdelight:chocolate_pie>);
 craftingTable.removeRecipe(<item:minecraft:pumpkin_pie>);
-<recipetype:farmersdelight:cooking>.addRecipe("apple_pie", <item:farmersdelight:apple_pie>, [<item:farmersdelight:pie_crust>, <item:fruitful:baked_apple>, <item:create:honeyed_apple>, <item:minecraft:apple>, <item:minecraft:sugar>], <item:create:iron_sheet>,  50, 200);
-<recipetype:farmersdelight:cooking>.addRecipe("pumpkin_pie", <item:minecraft:pumpkin_pie>, [<item:farmersdelight:pie_crust>, <item:minecraft:pumpkin>, <item:minecraft:sugar> * 2, <item:farmersdelight:pumpkin_slice> *2], <item:create:iron_sheet>,  50, 200);
+craftingTable.removeRecipe(<item:farmersdelight:sweet_berry_cheesecake>);
+<recipetype:create:compacting>.addRecipe("berry_cheescake_compacting", "heated", <item:farmersdelight:sweet_berry_cheesecake>, [<item:farmersdelight:pie_crust>, <item:create:chocolate_glazed_berries> * 2], [<fluid:create:milk> * 500], 200);
+<recipetype:create:compacting>.addRecipe("apple_pie_compacting", "heated", <item:farmersdelight:apple_pie>, [<item:farmersdelight:pie_crust>, <item:fruitful:baked_apple>, <item:create:honeyed_apple>, <item:minecraft:sugar>], [<fluid:create:milk> * 500], 200);
+<recipetype:create:compacting>.addRecipe("pumpkin_pie_compacting", "heated", <item:minecraft:pumpkin_pie>, [<item:farmersdelight:pie_crust>, <item:farmersdelight:pumpkin_slice> * 4, <item:minecraft:sugar> * 2], [<fluid:create:milk> * 500], 200);
+
 // cookie compacting
 craftingTable.removeRecipe(<item:minecraft:cookie>);
 craftingTable.removeRecipe(<item:farmersdelight:sweet_berry_cookie>);
@@ -29,7 +32,7 @@ craftingTable.removeRecipe(<item:ashenwheat:scintilla_bread>);
 <recipetype:create:compacting>.addRecipe("scintilla_bread", "superheated", <item:ashenwheat:scintilla_bread>, [<item:ashenwheat:scintilla_wheat_sheaf> * 3], [], 200);
 // Cake recipe
 craftingTable.removeRecipe(<item:minecraft:cake>);
-<recipetype:create:filling>.addRecipe("cake_filling", <item:minecraft:cake>, <item:farmersdelight:pie_crust>, <fluid:create:milk> * 500);
+<recipetype:create:compacting>.addRecipe("cake_compacting", "heated", <item:minecraft:cake>, [<item:createaddition:cake_base>, <item:minecraft:sweet_berries>, <item:minecraft:sugar>], [<fluid:create:milk> * 1000], 200);
 // Salad recipe
 craftingTable.removeByRegex(".*_salad.*");
 <recipetype:create:mixing>.addRecipe("fruit_salad", "none", <item:farmersdelight:fruit_salad>, [<item:farmersdelight:pumpkin_slice>, <item:minecraft:sweet_berries>, <item:minecraft:melon_slice>, <item:minecraft:apple>], []);

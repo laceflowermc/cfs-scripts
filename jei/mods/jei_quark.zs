@@ -23,9 +23,7 @@ mods.jei.JEI.hideRegex(".*_bookshelf.*");
 // manual hiding
 mods.jei.JEI.hideItem(<item:quark:forgotten_hat>);
 mods.jei.JEI.hideItem(<item:quark:bottled_cloud>);
-mods.jei.JEI.hideItem(<item:quark:soul_bead>);
 mods.jei.JEI.hideItem(<item:quark:iron_rod>);
-mods.jei.JEI.hideItem(<item:quark:dragon_scale>);
 mods.jei.JEI.hideItem(<item:quark:root>);
 mods.jei.JEI.hideItem(<item:quark:root_item>);
 mods.jei.JEI.hideItem(<item:quark:chorus_weeds>);

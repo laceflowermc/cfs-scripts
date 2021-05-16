@@ -52,3 +52,5 @@ mods.jei.JEI.hideRegex(".*_encased_shaft.*");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_chimney");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_pump");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_vent");
+// Hide Dolls
+mods.jei.JEI.hideRegex(".*doll_(?!(crafting)).*");
