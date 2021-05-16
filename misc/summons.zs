@@ -231,7 +231,7 @@ SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
         .setConsumeCatalyst(true)
-        .setReagents([<item:quark:soul_bead>, <item:minecraft:bone>, <tag:items:forge:raw_meat>])
+        .setReagents([<item:quark:soul_bead>, <item:minecraft:bone>, <tag:items:forge:raw_bacon>])
         .addMob(MobInfo.create()
             .setMob(<entitytype:minecraft:enderman>)
             .setCount(1)
