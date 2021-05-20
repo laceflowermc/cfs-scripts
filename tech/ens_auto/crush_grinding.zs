@@ -5,11 +5,11 @@ mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_stone_grin
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_andesite_grinding").input(<item:minecraft:andesite>).output(<item:exnihilosequentia:pebble_andesite> * 4));
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_diorite_grinding").input(<item:minecraft:diorite>).output(<item:exnihilosequentia:pebble_diorite> * 4));
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("pebble_granite_grinding").input(<item:minecraft:granite>).output(<item:exnihilosequentia:pebble_granite> * 4));
-// Chunk Grinding Recipes
-mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("chunk_copper_grinding").input(<item:exnihilosequentia:chunk_copper>).output(<item:create:crushed_copper_ore> * 2));
-mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("chunk_zinc_grinding").input(<item:exnihilosequentia:chunk_zinc>).output(<item:create:crushed_zinc_ore> * 2));
-mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("chunk_iron_grinding").input(<item:exnihilosequentia:chunk_iron>).output(<item:create:crushed_iron_ore> * 2));
-mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("chunk_gold_grinding").input(<item:exnihilosequentia:chunk_gold>).output(<item:create:crushed_gold_ore> * 2));
+// minecraft:ore Grinding Recipes
+mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("ore_copper_grinding").input(<item:create:copper_ore>).output(<item:create:crushed_copper_ore> * 2));
+mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("ore_zinc_grinding").input(<item:create:zinc_ore>).output(<item:create:crushed_zinc_ore> * 2));
+mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("ore_iron_grinding").input(<item:minecraft:iron_ore>).output(<item:create:crushed_iron_ore> * 2));
+mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("ore_gold_grinding").input(<item:minecraft:gold_ore>).output(<item:create:crushed_gold_ore> * 2));
 // Stonecrushing recipes
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("andesite_compressed_grinding").input(<item:excompressum:compressed_andesite>).output(<item:exnihilosequentia:crushed_andesite> * 9));
 mods.grinder.Grinder.addRecipe(new mods.grinder.RecipeBuilder("granite_compressed_grinding").input(<item:excompressum:compressed_granite>).output(<item:exnihilosequentia:crushed_granite> * 9));

@@ -8,6 +8,7 @@ craftingTable.removeByModid("flowerseeds");
 <recipetype:exnihilosequentia:sieve>.create("pebble_andesite_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:exnihilosequentia:pebble_andesite>).addRoll("flint", 0.33).addRoll("iron", 0.5).addRoll("diamond", 0.75);
 <recipetype:exnihilosequentia:sieve>.create("wheat_seeds_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:wheat_seeds>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("flint_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:flint>).addRoll("string", 0.2);
+<recipetype:exnihilosequentia:sieve>.create("clay_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:minecraft:flint>).addRoll("string", 0.1);
 <recipetype:exnihilosequentia:sieve>.create("oak_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:oak_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("spruce_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:spruce_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);
 <recipetype:exnihilosequentia:sieve>.create("birch_seed_dirt").setInput(<item:minecraft:dirt>).addDrop(<item:dynamictrees:birch_seed>).addRoll("string", 0.05).addRoll("flint", 0.15).addRoll("iron", 0.25).addRoll("diamond", 0.33);

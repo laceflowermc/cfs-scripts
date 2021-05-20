@@ -27,12 +27,13 @@ mods.jei.JEI.hideItem(<item:grinder:grindstone_mercury>);
 mods.jei.JEI.hideItem(<item:grinder:grindstone_osmium>);
 mods.jei.JEI.hideItem(<item:grinder:grindstone_ardite>);
 mods.jei.JEI.hideItem(<item:grinder:grindstone_cobalt>);
-mods.jei.JEI.hideItem(<item:grinder:grindstone_zitrite>);
 mods.jei.JEI.hideItem(<item:grinder:grindstone_tungsten>);
 mods.jei.JEI.hideItem(<item:grinder:grindstone_iesnium>);
 // smithing recipes for grindstones
 smithing.addRecipe("rainbow_grindstone", <item:grinder:grindstone_rainbow>, <item:grinder:grindstone_diamond>, <item:create:refined_radiance>);
+smithing.addRecipe("shadow_grindstone", <item:grinder:grindstone_zitrite>, <item:grinder:grindstone_diamond>, <item:create:shadow_steel>);
 smithing.addRecipe("starmetal_grindstone", <item:grinder:grindstone_starmetal>, <item:grinder:grindstone_diamond>, <item:cagedmobs:star_infused_netherite_ingot>);
+
 // recipe for grinder block
 craftingTable.removeByName("grinder:grinder");
 craftingTable.addShaped("grinder_block", <item:grinder:grinder>, [

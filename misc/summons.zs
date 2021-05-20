@@ -18,7 +18,7 @@ SummoningDirector.addSummonInfo(
 )
 */
 // Well well well
-<recipetype:create:filling>.addRecipe("well_filling", <item:zensummoning:altar>, <item:create:basin>, <fluid:exnihilosequentia:witchwater> * 1000);
+<recipetype:create:filling>.addRecipe("well_filling", <item:zensummoning:altar>, <item:farmersdelight:cutting_board>, <fluid:exnihilosequentia:witchwater> * 1000);
 // Remove doll recipes
 craftingTable.removeByRegex(".*doll_(?!(x))");
 // -- Non-hostile mobs with specific variants --
@@ -321,7 +321,7 @@ SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
         .setConsumeCatalyst(true)
-        .setReagents([<item:quark:soul_bead>])
+        .setReagents([<item:quark:soul_bead>, <item:excompressum:compressed_soul_sand>])
         .addMob(MobInfo.create()
             .setMob(<entitytype:quark:wraith>)
             .setCount(1)
@@ -356,7 +356,7 @@ SummoningDirector.addSummonInfo(
         .setConsumeCatalyst(true)
         .setReagents([<item:minecraft:ghast_tear>, <item:quark:soul_bead>])
         .addMob(MobInfo.create()
-            .setMob(<entitytype:minecraft:phantom>)
+            .setMob(<entitytype:minecraft:ghast>)
             .setCount(1)
             .setOffset(0,2,0)
             .setSpread(1,1,1)
@@ -398,9 +398,9 @@ SummoningDirector.addSummonInfo(
 # todo: skeleton villager
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setCatalyst(<item:quark:soul_bead>)
         .setConsumeCatalyst(true)
-        .setReagents([<item:cagedmobs:dragon_scale> * 3, <item:minecraft:enchanted_golden_apple>, <item:quark:soul_bead>])
+        .setReagents([<item:cagedmobs:dragon_scale> * 3, <item:minecraft:enchanted_golden_apple>, <item:minecraft:dragon_breath>])
         .addMob(MobInfo.create()
             .setMob(<entitytype:minecraft:ender_dragon>)
             .setCount(1)

@@ -22,7 +22,6 @@ mods.jei.JEI.hideRegex(".*_coral.*");
 mods.jei.JEI.hideRegex(".*_button.*");
 mods.jei.JEI.hideRegex(".*_bucket.*");
 mods.jei.JEI.hideRegex(".*_dust.*");
-mods.jei.JEI.hideRegex(".*(?<!(crushed))_ore.*");
 mods.jei.JEI.hideRegex(".*wild_.*");
 mods.jei.JEI.hideRegex(".*music_disc.*");
 mods.jei.JEI.hideRegex(".*_tulip.*");
@@ -52,5 +51,7 @@ mods.jei.JEI.hideRegex(".*_encased_shaft.*");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_chimney");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_pump");
 mods.jei.JEI.hideRegex(".*(?<!(smooth_stone))_vent");
-// Hide Dolls
+// Hide unused ENS stuff
 mods.jei.JEI.hideRegex(".*doll_(?!(crafting)).*");
+mods.jei.JEI.hideRegex(".*chunk_.*");
+mods.jei.JEI.hideRegex(".*piece_.*");
