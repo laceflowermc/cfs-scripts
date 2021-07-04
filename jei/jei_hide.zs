@@ -8,6 +8,7 @@ mods.jei.JEI.hideItem(<item:minecraft:splash_potion>);
 mods.jei.JEI.hideItem(<item:minecraft:lingering_potion>);
 mods.jei.JEI.hideItem(<item:minecraft:tipped_arrow>);
 mods.jei.JEI.hideItem(<item:craftabledeeds:filled_deed>);
+mods.jei.JEI.hideItem(<item:skyblockbuilder:structure_saver>);
 // dirt blocks
 mods.jei.JEI.hideItem(<item:minecraft:farmland>);
 mods.jei.JEI.hideItem(<item:minecraft:podzol>);
