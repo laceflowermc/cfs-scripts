@@ -9,3 +9,7 @@
 <recipetype:create:milling>.addRecipe("dust_milling", [<item:minecraft:redstone> % 10, <item:minecraft:blaze_powder> % 3, <item:minecraft:glowstone_dust> % 5, <item:mysticalagriculture:prosperity_shard> % 15], <item:exnihilosequentia:dust>);
 <recipetype:create:milling>.addRecipe("cnr_milling", [<item:exnihilosequentia:pebble_basalt> % 15, <item:exnihilosequentia:pebble_blackstone> % 15, <item:create:crushed_gold_ore> % 15, <item:minecraft:quartz> % 10, <item:minecraft:netherite_scrap> % 1], <item:exnihilosequentia:crushed_netherrack>);
 <recipetype:create:milling>.addRecipe("soulsand_milling", [<item:minecraft:quartz> % 20, <item:mysticalagriculture:soulium_dust> % 20, <item:minecraft:ghast_tear> % 5, <item:quark:soul_bead> % 1], <item:minecraft:soul_sand>);
+// Compressed Stone -> Compressed Gravel
+<recipetype:exnihilosequentia:hammer>.create("compressed_cobble_gravel").setInput(<item:compressium:cobblestone_1>).addOutput(<item:compressium:gravel_1>);
+<recipetype:exnihilosequentia:hammer>.create("compressed_gravel_sand").setInput(<item:compressium:gravel_1>).addOutput(<item:compressium:sand_1>);
+<recipetype:exnihilosequentia:hammer>.create("compressed_sand_dust").setInput(<item:compressium:sand_1>).addOutput(<item:exnihilosequentia:dust> * 9);

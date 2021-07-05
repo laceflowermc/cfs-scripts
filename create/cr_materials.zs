@@ -10,15 +10,15 @@
 // Amdesite Alloy
 craftingTable.removeRecipe(<item:create:andesite_alloy>);
 <recipetype:create:mixing>.removeRecipe(<item:create:andesite_alloy>);
-craftingTable.addShaped("andesite_alloy_iron", <item:create:andesite_alloy> * 3, [
+craftingTable.addShapedMirrored("andesite_alloy_iron", <item:create:andesite_alloy> * 3, [
     [<item:exnihilosequentia:pebble_andesite>, <item:minecraft:iron_nugget>],
     [<item:minecraft:iron_nugget>, <item:exnihilosequentia:pebble_andesite>]
 ]);
-craftingTable.addShaped("andesite_alloy_zinc", <item:create:andesite_alloy> * 2, [
+craftingTable.addShapedMirrored("andesite_alloy_zinc", <item:create:andesite_alloy> * 2, [
     [<item:exnihilosequentia:pebble_andesite>, <item:create:zinc_nugget>],
     [<item:create:zinc_nugget>, <item:exnihilosequentia:pebble_andesite>]
 ]);
-craftingTable.addShaped("andesite_alloy_bonemeal", <item:create:andesite_alloy> * 1, [
+craftingTable.addShapedMirrored("andesite_alloy_bonemeal", <item:create:andesite_alloy> * 1, [
     [<item:exnihilosequentia:pebble_andesite>, <item:minecraft:bone_meal>],
     [<item:minecraft:bone_meal>, <item:exnihilosequentia:pebble_andesite>]
 ]);
