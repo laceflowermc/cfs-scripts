@@ -10,7 +10,6 @@ mods.jei.JEI.hideItem(<item:storagedrawers:conversion_upgrade>);
 <recipetype:create:compacting>.addRecipe("redstone_upgrade_compacting", "none", <item:storagedrawers:redstone_upgrade>, [<item:storagedrawers:upgrade_template>, <item:extendedcrafting:redstone_nugget> * 3], [], 200);
 <recipetype:create:compacting>.addRecipe("void_upgrade_compacting", "none", <item:storagedrawers:void_upgrade>, [<item:storagedrawers:upgrade_template>, <item:create:shadow_steel>], [], 200);
 <recipetype:create:compacting>.addRecipe("one_stack_upgrade_compacting", "none", <item:storagedrawers:one_stack_upgrade>, [<item:storagedrawers:upgrade_template>, <item:minecraft:flint> * 3], [], 200);
-<recipetype:create:compacting>.addRecipe("redstone_upgrade_compacting", "none", <item:storagedrawers:redstone_upgrade>, [<item:storagedrawers:upgrade_template>, <item:extendedcrafting:redstone_nugget> * 3], [], 200);
 // Storage Upgrades
 <recipetype:create:compacting>.addRecipe("obsidian_upgrade_compacting", "none", <item:storagedrawers:obsidian_storage_upgrade>, [<item:storagedrawers:upgrade_template>, <item:create:powdered_obsidian> * 8], [], 200);
 <recipetype:create:compacting>.addRecipe("iron_upgrade_compacting", "none", <item:storagedrawers:iron_storage_upgrade>, [<item:storagedrawers:obsidian_storage_upgrade>, <item:createaddition:iron_wire> * 8], [], 200);

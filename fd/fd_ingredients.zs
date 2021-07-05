@@ -7,7 +7,7 @@ craftingTable.removeRecipe(<item:farmersdelight:milk_bottle>);
 <recipetype:exnihilosequentia:crucible>.create("honey_block").setInput(<item:minecraft:honey_block>).setAmount(1000).setCrucibleType("fired").setResultFluid(<fluid:create:honey>);
 <recipetype:exnihilosequentia:crucible>.create("honeycomb").setInput(<item:minecraft:honeycomb>).setAmount(250).setCrucibleType("fired").setResultFluid(<fluid:create:honey>);
 // chocolate crucible
-<recipetype:exnihilosequentia:crucible>.create("honeycomb").setInput(<item:create:bar_of_chocolate>).setAmount(250).setCrucibleType("fired").setResultFluid(<fluid:create:chocolate>);
+<recipetype:exnihilosequentia:crucible>.create("chocolate_bar").setInput(<item:create:bar_of_chocolate>).setAmount(250).setCrucibleType("fired").setResultFluid(<fluid:create:chocolate>);
 // patty pressing
 <recipetype:create:pressing>.addRecipe("beef_pressing", [<item:farmersdelight:minced_beef> * 2], <item:minecraft:beef>);
 // dough
