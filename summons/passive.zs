@@ -8,17 +8,20 @@ SummoningDirector.addSummonInfo(
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
         .setConsumeCatalyst(true)
         .setReagents([<item:minecraft:wheat> * 2, <item:minecraft:leather>])
+        .setWeight(0.9)
         .addMob(MobInfo.create()
             .setMob(<entitytype:minecraft:cow>)
             .setCount(2)
             .setOffset(0,2,0)
             .setSpread(2,1,2)
+            
 ));
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
         .setConsumeCatalyst(true)
-        .setReagents([<tag:items:forge:mushrooms> * 2, <item:minecraft:leather>])
+        .setReagents([<item:minecraft:wheat> * 2, <item:minecraft:leather>])
+        .setWeight(0.1)
         .addMob(MobInfo.create()
             .setMob(<entitytype:minecraft:mooshroom>)
             .setCount(2)
