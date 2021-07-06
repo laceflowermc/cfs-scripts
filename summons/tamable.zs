@@ -74,3 +74,76 @@ SummoningDirector.addSummonInfo(
             .setOffset(0,2,0)
             .setSpread(2,1,2)
 ));
+// Bee
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<tag:items:minecraft:flowers> * 3, <item:minecraft:sugar>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:bee>)
+            .setCount(3)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+// Horse Variants
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:hay_block> * 2, <item:minecraft:leather>])
+        .setWeight(0.85)
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:horse>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:hay_block> * 2, <item:minecraft:leather>])
+        .setWeight(0.1)
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:donkey>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:hay_block> * 2, <item:minecraft:leather>])
+        .setWeight(0.025)
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:zombie_horse>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:hay_block> * 2, <item:minecraft:leather>])
+        .setWeight(0.025)
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:skeleton_horse>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+// Llama
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:hay_block> * 2, <tag:items:minecraft:carpets>])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:horse>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));

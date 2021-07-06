@@ -59,4 +59,5 @@ import mods.exnihilosequentia.ZenSieveRecipe;
 <recipetype:exnihilosequentia:sieve>.create("ossidroot_soulsand").setInput(<item:minecraft:soul_sand>).addDrop(<item:ashenwheat:ossid_seeds>).addRoll("iron", 0.01).addRoll("diamond", 0.01).addRoll("emerald", 0.01).addRoll("netherite", 0.01).setWaterlogged();
 <recipetype:exnihilosequentia:sieve>.create("thundergrass_soulsand").setInput(<item:minecraft:soul_sand>).addDrop(<item:ashenwheat:thunder_seeds>).addRoll("iron", 0.01).addRoll("diamond", 0.01).addRoll("emerald", 0.01).addRoll("netherite", 0.01).setWaterlogged();
 // End Stone recipes
-<recipetype:exnihilosequentia:sieve>.create("chorus_fruit_endstone").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:chorus_flower>).addRoll("diamond", 0.10).addRoll("emerald", 0.10).addRoll("netherite", 0.10);
+<recipetype:exnihilosequentia:sieve>.create("chorus_flower_endstone").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:chorus_flower>).addRoll("diamond", 0.05).addRoll("emerald", 0.05).addRoll("netherite", 0.05);
+<recipetype:exnihilosequentia:sieve>.create("chorus_fruit_endstone").setInput(<item:exnihilosequentia:crushed_end_stone>).addDrop(<item:minecraft:chorus_fruit>).addRoll("diamond", 0.10).addRoll("emerald", 0.10).addRoll("netherite", 0.10);

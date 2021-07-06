@@ -110,3 +110,23 @@ SummoningDirector.addSummonInfo(
             .setOffset(0,2,0)
             .setSpread(2,1,2)
 ));
+// Guardian
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:prismarine_shard> * 3])
+        .setWeight(0.5)
+        .setMutator((attempt as SummoningAttempt) => {
+            if (attempt.world.raining) {
+                attempt.success = true;
+            } else {
+                attempt.success = false;
+            }
+        })
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:guardian>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));

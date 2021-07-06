@@ -16,6 +16,7 @@ mods.jei.JEI.hideItem(<item:minecraft:warped_nylium>);
 mods.jei.JEI.hideItem(<item:minecraft:crimson_nylium>);
 mods.jei.JEI.hideItem(<item:minecraft:bee_nest>);
 mods.jei.JEI.hideItem(<item:exnihilosequentia:end_cake>);
+mods.jei.JEI.hideItem(<item:exnihilosequentia:beehive_frame>);
 mods.jei.JEI.hideItem(<item:farmersdelight:rich_soil_farmland>);
 // hide flowers
 mods.jei.JEI.hideItem(<item:minecraft:grass>);

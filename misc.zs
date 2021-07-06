@@ -1,5 +1,6 @@
 // Remove End cake recipe
 craftingTable.removeRecipe(<item:exnihilosequentia:end_cake>);
+craftingTable.removeRecipe(<item:exnihilosequentia:beehive_frame>);
 // Well of Creation
 <recipetype:create:filling>.addRecipe("well_filling", <item:zensummoning:altar>, <item:create:andesite_casing>, <fluid:exnihilosequentia:witchwater> * 1000);
 // Witchwater recipe

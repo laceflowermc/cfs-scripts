@@ -14,7 +14,6 @@ SummoningDirector.addSummonInfo(
             .setCount(2)
             .setOffset(0,2,0)
             .setSpread(2,1,2)
-            
 ));
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
@@ -85,6 +84,30 @@ SummoningDirector.addSummonInfo(
         .addMob(MobInfo.create()
             .setMob(<entitytype:quark:stoneling>)
             .setCount(2)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+// Panda
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:bamboo> * 3])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:panda>)
+            .setCount(1)
+            .setOffset(0,2,0)
+            .setSpread(2,1,2)
+));
+// Polar Bear
+SummoningDirector.addSummonInfo(
+    SummoningInfo.create()
+        .setCatalyst(<item:exnihilosequentia:doll_crafting>)
+        .setConsumeCatalyst(true)
+        .setReagents([<item:minecraft:snow> * 3])
+        .addMob(MobInfo.create()
+            .setMob(<entitytype:minecraft:polar_bear>)
+            .setCount(1)
             .setOffset(0,2,0)
             .setSpread(2,1,2)
 ));
