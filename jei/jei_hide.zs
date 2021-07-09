@@ -9,6 +9,7 @@ mods.jei.JEI.hideItem(<item:minecraft:lingering_potion>);
 mods.jei.JEI.hideItem(<item:minecraft:tipped_arrow>);
 mods.jei.JEI.hideItem(<item:craftabledeeds:filled_deed>);
 mods.jei.JEI.hideItem(<item:skyblockbuilder:structure_saver>);
+mods.jei.JEI.hideItem(<item:create:handheld_worldshaper>);
 // dirt blocks
 mods.jei.JEI.hideItem(<item:minecraft:farmland>);
 mods.jei.JEI.hideItem(<item:minecraft:podzol>);
@@ -58,3 +59,5 @@ mods.jei.JEI.hideItem(<item:adpother:sulfur>);
 mods.jei.JEI.hideItem(<item:adpother:carbon>);
 mods.jei.JEI.hideItem(<item:adpother:dust>);
 mods.jei.JEI.hideFluid(<fluid:adpother:polluted_water_still>);
+// hide cits stuff
+mods.jei.JEI.hideMod("castle_in_the_sky");

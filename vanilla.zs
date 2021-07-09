@@ -28,3 +28,5 @@ craftingTable.removeByName("minecraft:coarse_dirt");
 <recipetype:create:compacting>.addRecipe("compressed_dirt_pressing", "none", <item:compressium:dirt_1>, [<item:minecraft:coarse_dirt> * 9], [], 120000);
 // Experience Bottle brewing
 brewing.addRecipe(<item:minecraft:experience_bottle>, <item:mysticalagriculture:experience_droplet>, <item:minecraft:honey_bottle>);
+// Elytra recipe
+<recipetype:create:compacting>.addRecipe("elytra", "superheated", <item:minecraft:elytra>, [<item:minecraft:phantom_membrane> * 7, <item:create:refined_radiance>], [], 200);
