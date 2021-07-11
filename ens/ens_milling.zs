@@ -13,3 +13,7 @@
 <recipetype:exnihilosequentia:hammer>.create("compressed_cobble_gravel").setInput(<item:compressium:cobblestone_1>).addOutput(<item:compressium:gravel_1>);
 <recipetype:exnihilosequentia:hammer>.create("compressed_gravel_sand").setInput(<item:compressium:gravel_1>).addOutput(<item:compressium:sand_1>);
 <recipetype:exnihilosequentia:hammer>.create("compressed_sand_dust").setInput(<item:compressium:sand_1>).addOutput(<item:exnihilosequentia:dust> * 9);
+// Stone Pressing
+<recipetype:create:pressing>.addRecipe("gravel_pressing", [<item:minecraft:gravel>], <item:minecraft:cobblestone>);
+<recipetype:create:pressing>.addRecipe("sand_pressing", [<item:minecraft:sand>], <item:minecraft:gravel>);
+<recipetype:create:pressing>.addRecipe("dust_pressing", [<item:minecraft:dust>], <item:minecraft:sand>);

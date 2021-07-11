@@ -66,7 +66,7 @@ SummoningDirector.addSummonInfo(
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
-        .setConsumeCatalyst(true)
+        .setConsumeCatalyst(true)       
         .setReagents([<item:minecraft:slime_ball> * 3])
         .addMob(MobInfo.create()
             .setMob(<entitytype:minecraft:slime>)
@@ -98,7 +98,7 @@ SummoningDirector.addSummonInfo(
             .setOffset(0,2,0)
             .setSpread(2,1,2)
 ));
-// Ghast
+// Wraith
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
         .setCatalyst(<item:exnihilosequentia:doll_crafting>)
