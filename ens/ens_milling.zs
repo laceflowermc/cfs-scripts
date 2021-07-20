@@ -16,4 +16,4 @@
 // Stone Pressing
 <recipetype:create:pressing>.addRecipe("gravel_pressing", [<item:minecraft:gravel>], <item:minecraft:cobblestone>);
 <recipetype:create:pressing>.addRecipe("sand_pressing", [<item:minecraft:sand>], <item:minecraft:gravel>);
-<recipetype:create:pressing>.addRecipe("dust_pressing", [<item:minecraft:dust>], <item:minecraft:sand>);
+<recipetype:create:pressing>.addRecipe("dust_pressing", [<item:exnihilosequentia:dust>], <item:minecraft:sand>);
