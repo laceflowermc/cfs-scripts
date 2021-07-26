@@ -1,4 +1,3 @@
-import mods.jei.JEI;
 // Stone Plates
 craftingTable.removeRecipe(<item:morered:stone_plate>);
 stoneCutter.removeRecipe(<item:morered:stone_plate>);
@@ -10,7 +9,6 @@ craftingTable.addShaped("bundled_cable_spool_crafting", <item:morered:bundled_ca
 	 [<item:morered:bundled_network_cable>, <item:createaddition:spool>, <item:morered:bundled_network_cable>],
 	 [<item:minecraft:air>, <item:morered:bundled_network_cable>, <item:minecraft:air>]]);
 // Redwire Alloy
-mods.jei.JEI.hideItem(<item:morered:red_alloy_ingot>);
 craftingTable.removeRecipe(<item:morered:red_alloy_ingot>);
 craftingTable.removeRecipe(<item:morered:red_alloy_wire>);
 craftingTable.removeRecipe(<item:morered:redwire_spool>);
@@ -30,3 +28,10 @@ craftingTable.addShaped("redwire_spool_crafting", <item:morered:redwire_spool>,
         }
     ]
 });
+// Gates
+craftingTable.removeRecipe(<item:morered:diode>);
+craftingTable.removeRecipe(<item:morered:multiplexer>);
+craftingTable.removeRecipe(<item:morered:latch>);
+craftingTable.removeRecipe(<item:morered:bitwise_diode>);
+craftingTable.removeRecipe(<item:morered:bundled_cable_relay_plate>);
+craftingTable.removeByRegex(".*_gate");

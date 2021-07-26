@@ -1,12 +1,7 @@
-import mods.jei.JEI;
 craftingTable.removeRecipe(<item:enderrift:generator>);
-mods.jei.JEI.hideItem(<item:enderrift:generator>);
 craftingTable.removeRecipe(<item:enderrift:rift_orb>);
-<recipetype:extendedcrafting:ender_crafter>.addShaped("rift_orb_ecrafting", <item:enderrift:rift_orb>, 
-	[[<item:extendedcrafting:redstone_catalyst>, <item:extendedcrafting:ender_star>, <item:extendedcrafting:redstone_catalyst>],
-	 [<item:extendedcrafting:ender_star>, <item:minecraft:ender_eye>, <item:extendedcrafting:ender_star>],
-	 [<item:extendedcrafting:redstone_catalyst>, <item:extendedcrafting:ender_star>, <item:extendedcrafting:redstone_catalyst>]], 10000);
 craftingTable.removeRecipe(<item:enderrift:rift>);
+<recipetype:create:filling>.addRecipe("rift_orb_filling", <item:enderrift:rift_orb>, <item:minecraft:ender_eye>, <fluid:betterportals:portal_fluid_still> * 1000);
 <recipetype:extendedcrafting:ender_crafter>.addShaped("rift_core_ecrafting", <item:enderrift:rift>, 
 	[[<item:morered:redwire_spool>, <item:create:shadow_steel_casing>, <item:morered:redwire_spool>],
 	 [<item:extendedcrafting:enhanced_ender_component>, <item:enderrift:driver>, <item:extendedcrafting:enhanced_ender_component>],

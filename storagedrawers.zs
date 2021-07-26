@@ -1,6 +1,6 @@
 import mods.jei.JEI;
 craftingTable.removeRecipe(<item:storagedrawers:upgrade_template>);
-<recipetype:create:compacting>.addRecipe("upgrade_template_compacting", "none", <item:storagedrawers:upgrade_template>, [<tag:items:storagedrawers:drawers>, <item:create:lapis_sheet>, <item:createaddition:gold_wire>], [], 200);
+<recipetype:create:compacting>.addRecipe("upgrade_template_compacting", "none", <item:storagedrawers:upgrade_template>, [<tag:items:storagedrawers:drawers>, <item:create:precision_mechanism>, <item:createaddition:gold_wire>], [], 200);
 craftingTable.removeByRegex("storagedrawers:.*_upgrade");
 mods.jei.JEI.hideItem(<item:storagedrawers:conversion_upgrade>);
 // Misc Upgrades
